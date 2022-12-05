@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.calculator-container{
+    height: 400px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 10px;
+    border: white 3px solid;
+    position: relative;
+}
+
+.buttons{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+
+}
+
+button{
+    transition: all 0.2s;
+    background-color: lightblue;
+    border:1px solid  lightcyan;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
+    box-shadow: -2px 3px 2px grey;
+
+}
+
+button:hover{
+    transform: scale(1.04);
+   
+}
+
+.calculator-numbers{
+    height: 300px;
+    width: 200px;
+    margin-top: 25%;
+    margin-left: 10px;
+}   
+.calculator-numbers ul li{
+    display: inline-block;
+    
+}
+
+.symbols{
+    width: 150px;
+    margin-top: 25%;
+    position: relative;
+}
+
+.symbols ul li{
+    display: inline-block;
+}
+
+
+.calculator-symbols_list li:nth-child(n+6) {
+    position: absolute;
+    bottom: 5px;
+    right: 185.4px;
+}
+.calculator-symbols_list li:nth-child(5){
+    position: absolute;
+    bottom: 5px;
+    right: 132px;
+}
+
+.screen{
+
+    margin-left: 21px;
+    position: absolute;
+    top: 20px;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border-radius:7px;
+    box-shadow: 0px 3px 2px grey;
+
+}
+
+.value{
+    position: absolute;
+    left: 220px;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgb(204, 0, 255);
+}
+
+.value2{
+    position: absolute;
+    left: 220px;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgb(204, 0, 255);
+}
+
+.result{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgb(204, 0, 255);
+}
+
+.wordResult{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgb(204, 0, 255);
+}
+
+.calculator-container{
+
+    box-shadow: -5px 2px 2px #ffc0cb;
+    
+}
+
